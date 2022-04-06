@@ -3,6 +3,7 @@
 Current Version: 1.0
 
 A small data pack for Minecraft: Java Edition 1.19. Players are allowed to retrieve all of their experience, but only if they can get to it before they die again. Players can only retrieve their own experience.
+
 NOTE: This pack has not been fully tested in multiplayer. Please open an issue if you experience a bug.
 
 ## Installation Steps
