@@ -11,4 +11,3 @@ execute store result storage bloodstain: ArmorStand.Pos[1] double 1 run scoreboa
 execute store result storage bloodstain: ArmorStand.Pos[2] double 1 run scoreboard players get death_z bloodstain_var
 execute as @e[type=armor_stand,tag=editing,tag=item,limit=1] run function bloodstain:stain/edit
 tag @e[tag=editing] remove editing
-tag @s add summoned
