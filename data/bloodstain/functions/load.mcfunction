@@ -2,6 +2,9 @@ scoreboard objectives add bloodstain_var dummy
 scoreboard objectives add bloodstain_id dummy
 scoreboard objectives add bloodstain_points dummy
 scoreboard objectives add bloodstain_levels dummy
+scoreboard objectives add bloodstain_deathx dummy
+scoreboard objectives add bloodstain_deathy dummy
+scoreboard objectives add bloodstain_deathz dummy
 scoreboard objectives add bloodstain_deaths deathCount
 scoreboard objectives add bloodstain_deathcount deathCount
 execute unless score $keepExperience bloodstain_var = $keepExperience bloodstain_var run scoreboard players set $keepExperience bloodstain_var 1

@@ -1,7 +1,7 @@
 scoreboard players set temp bloodstain_var 1
 tag @s add bloodstain_retrieved
-function bloodstain:retrieve_levels
-function bloodstain:retrieve_points
+function bloodstain:player/retrieve_levels
+function bloodstain:player/retrieve_points
 playsound item.trident.riptide_3 player @s ~ ~ ~ 1 0.5
 title @s times 13 30 12
 title @s subtitle {"text":"EXPERIENCE RETRIEVED"}
