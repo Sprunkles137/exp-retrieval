@@ -2,7 +2,7 @@
 ## Overview
 Current Version: 1.1
 
-A small data pack for Minecraft: Java Edition 1.19. Players are allowed to retrieve all of their experience, but only if they can get to it before they die again. Players can only retrieve their own experience.
+A small data pack for Minecraft: Java Edition 1.19. Instead of dropping experience upon a death, a small sprout appears where the player died, and that player can interact with it to retrieve their experience points. But only if they can get to it before they die again—otherwse it's gone forever. Players can only retrieve their own experience, and not somebody else's.
 
 NOTE: This pack has not been fully tested in multiplayer. Please open an issue if you experience a bug.
 
@@ -20,7 +20,7 @@ By default, this pack does not change how experience is dropped when keepInvento
 
 ## Changelog
 ### Version 1.1
-The retrieval location is now based on the last safe spot you were standing before you died, up to ten seconds ago. Unsafe locations are marked as follows: being in lava, or above air.
+The sprout is now based on the last safe spot you were standing before you died, up to ten seconds ago. Unsafe locations are marked as follows: being in lava, or above air. It will still appear at your location if no safe location could be found, however.
 
 ### Version 1.0
-Initial release. The retrieval location appears where the player died. Interacting with the small grass will grant all experience back. Dying again will lose all prior EXP and cause it to spawn at a new location.
+Initial release. The sprout appears at the location where a player died. Interacting with the sprout will grant all experience back. Dying again will lose all prior EXP and cause the sprout to spawn at a new location.
