@@ -1,6 +1,6 @@
 # Experience Retrieval
 ## Overview
-Current Version: 1.0
+Current Version: 1.1
 
 A small data pack for Minecraft: Java Edition 1.19. Players are allowed to retrieve all of their experience, but only if they can get to it before they die again. Players can only retrieve their own experience.
 
@@ -17,3 +17,10 @@ By default, this pack does not change how experience is dropped when keepInvento
 ```
 /scoreboard players set $keepExperience bloodstain_var 0
 ```
+
+## Changelog
+### Version 1.1
+The retrieval location is now based on the last safe spot you were standing before you died, up to ten seconds ago. Unsafe locations are marked as follows: being in lava, or above air.
+
+### Version 1.0
+Initial release. The retrieval location appears where the player died. Interacting with the small grass will grant all experience back. Dying again will lose all prior EXP and cause it to spawn at a new location.
